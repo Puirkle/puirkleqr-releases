@@ -1,5 +1,8 @@
-PuirkleQR Releases
-✨ Free Software by Puirkle
+# PuirkleQR Releases
+
+✨ **Free Software by Puirkle**
+
+🌐 **English** | [ภาษาไทย](README.th.md)
 
 Hi! It's me, Puirkle 👋
 
@@ -7,41 +10,225 @@ I'm happy to share PuirkleQR with everyone. The software is completely free to u
 
 There are no hidden fees or paid features required.
 
-📦 Downloads
+## 📦 Downloads
 
-You can find the latest PuirkleQR releases and downloads here in this channel.
+You can find the latest PuirkleQR releases and downloads here: **[Releases](https://github.com/Puirkle/puirkleqr-releases/releases/latest)**
 
-🔑 License
+| Your device | File to download |
+|---|---|
+| Windows (install it) | `PuirkleQR-<version>-windows-installer.exe` |
+| Windows (no install, run from a folder or USB stick) | `PuirkleQR-<version>-windows-portable.zip` |
+| Mac with Apple chip (M1, M2, ...) | `PuirkleQR-<version>-macos-apple-silicon-portable.zip` |
+| Mac with Intel chip | `PuirkleQR-<version>-macos-intel-portable.zip` |
+| Linux (Ubuntu, Debian) | `PuirkleQR-<version>-linux-installer.deb` |
+| Linux (other) | `PuirkleQR-<version>-linux-installer.run` or `PuirkleQR-<version>-linux-portable.tar.gz` |
+
+The app updates itself: when a new version is out it asks "Update now?" the next time you open it.
+
+## 🔑 License
 
 If PuirkleQR asks you for a license, don't worry!
 
 Just send me a DM on Discord and I'll provide you with a license for free.
 
-Discord: pthemaid
+Discord: **pthemaid**
 
-Licence:PQR-HA2C-QJNJ-9PJB-DVRQ
+License: `PQR-HA2C-QJNJ-9PJB-DVRQ`
+
+How to enter it: click the plan button at the top right of the window, type the license, press **Activate**.
 
 💡 You are also free to use PuirkleQR for commercial purposes.
 
-☕ Support My Work
+## ✨ Features
+
+PuirkleQR Studio makes QR codes and barcodes that look the way you want. It works offline, in Thai and English,
+with dark and light mode.
+
+### 🔗 24 kinds of QR code
+
+- **Web and text:** website link, plain text, app download (Google Play / App Store), file (PDF, picture, audio, video)
+- **Contact:** vCard, MeCard, email, SMS, phone call, social profile
+- **Chat:** WhatsApp, LINE, WeChat
+- **Meetings:** Zoom, Google Meet, calendar event
+- **Places and networks:** location, Wi-Fi
+- **Payments:** PromptPay (Thai QR), TrueMoney Wallet, PayPal, WeChat Pay, crypto
+- **Music:** Spotify
+
+### 🎨 Design
+
+- **Code shapes:** circle and heart, and from 1.0.7 also rounded square, octagon, hexagon, diamond, star, shield,
+  flower, badge, speech bubble, map pin and cloud, with an optional border line in any colour
+- **17 body patterns**, 9 eye frames and 13 eye balls
+- **Colours:** solid or multi-colour gradient, own colours for the eyes, transparent or rounded background
+- **Logo in the middle:** 34 built-in icons, your initials, or your own picture
+- **18 frames:** "Scan me" labels, speech bubble, ticket, Polaroid, phone, Thai QR Payment, stamp, or your own picture
+- **Texts and stickers:** add texts and animated stickers anywhere on the code
+- **Picture QR:** your photo or animated GIF inside the code
+- **Ready-made styles:** 70 one-click presets (100 from 1.0.7, with new "Shaped" and "Business" groups)
+- **Animated GIF codes:** rainbow flow, gradient flow, colour cycle
+
+### 📊 Barcodes
+
+Code 128, Code 39, Code 93, EAN-13, EAN-8, UPC-A, UPC-E, ITF, Codabar, PDF417, Data Matrix, Aztec
+
+### ✅ Scan check
+
+Every code is test-read while you design it, so you know it scans before you print it.
+
+### 💾 Save, print, share
+
+- **Save as** PNG, JPG, BMP, SVG (vector) or animated GIF, up to 32,768 px for posters
+- **Print designer:** many codes on one page, sticker sheets, auto arrange, A3 to A6 and more
+- **My QR:** keep your codes in groups, edit them later, reuse their style
+- **Share:** copy, email, LINE, WhatsApp, Telegram, Facebook, X
+- **Send to your other computers** on the same network, no internet needed
+
+### 💼 Portable version
+
+Runs from a folder with no installation. Your data stays in one encrypted file that only opens on your PC, and
+there is a "Move to another PC" button for when you change computers.
+
+### 📁 File QR
+
+A QR code that opens a PDF, picture, song or video. The file is uploaded to storage you own: `PuirkleQR-FileServer.zip`
+in each release is a small file server you can put on your own web hosting or Cloudflare.
+
+## 🐞 Found a bug?
+
+Tell me here: **[Issues](https://github.com/Puirkle/puirkleqr-releases/issues)** (there is also a **Report a bug** button in the app).
+
+## ☕ Support My Work
 
 The "paid version" is basically a joke 😂
 
 However, if you enjoy my software and would like to support me, you can do so here:
 
-🇹🇭 Thai Support
+🇹🇭 **Thai Support** (Thai only): https://ezdn.app/puirkle
 
-Thai Only:
-https://ezdn.app/puirkle
+☕ **Buy Me a Coffee:** https://buymeacoffee.com/puirkle
 
-☕ Buy Me a Coffee
-
-https://buymeacoffee.com/puirkle
-
-❤️ Thank You!
+## ❤️ Thank You!
 
 Thanks for using PuirkleQR and supporting my work!
 
 Your support helps me continue making and maintaining free software.
+
+— Puirkle
+
+
+# PuirkleQR Releases
+
+✨ **ซอฟต์แวร์ฟรีโดย Puirkle**
+
+🌐 [English](README.md) | **ภาษาไทย**
+
+สวัสดี! เราเอง Puirkle 👋
+
+ดีใจที่ได้แบ่งปัน PuirkleQR ให้ทุกคนใช้ โปรแกรมนี้ใช้ได้ฟรีทั้งหมด รวมถึงใช้ในเชิงพาณิชย์ด้วย
+
+ไม่มีค่าใช้จ่ายแอบแฝง และไม่ต้องจ่ายเงินเพื่อใช้ฟีเจอร์ใด ๆ
+
+## 📦 ดาวน์โหลด
+
+ดาวน์โหลด PuirkleQR เวอร์ชันล่าสุดได้ที่นี่: **[Releases](https://github.com/Puirkle/puirkleqr-releases/releases/latest)**
+
+| เครื่องของคุณ | ไฟล์ที่ต้องดาวน์โหลด |
+|---|---|
+| Windows (ติดตั้งลงเครื่อง) | `PuirkleQR-<เวอร์ชัน>-windows-installer.exe` |
+| Windows (ไม่ต้องติดตั้ง เปิดจากโฟลเดอร์หรือแฟลชไดรฟ์) | `PuirkleQR-<เวอร์ชัน>-windows-portable.zip` |
+| Mac ชิป Apple (M1, M2, ...) | `PuirkleQR-<เวอร์ชัน>-macos-apple-silicon-portable.zip` |
+| Mac ชิป Intel | `PuirkleQR-<เวอร์ชัน>-macos-intel-portable.zip` |
+| Linux (Ubuntu, Debian) | `PuirkleQR-<เวอร์ชัน>-linux-installer.deb` |
+| Linux (อื่น ๆ) | `PuirkleQR-<เวอร์ชัน>-linux-installer.run` หรือ `PuirkleQR-<เวอร์ชัน>-linux-portable.tar.gz` |
+
+โปรแกรมอัปเดตตัวเองได้ เมื่อมีเวอร์ชันใหม่ ตอนเปิดโปรแกรมครั้งถัดไปจะถามว่า "อัปเดตเลยไหม?"
+
+## 🔑 License
+
+ถ้า PuirkleQR ถามหา License ไม่ต้องกังวล!
+
+ทัก DM มาหาเราทาง Discord ได้เลย เราจะให้ License ฟรี
+
+Discord: **pthemaid**
+
+License: `PQR-HA2C-QJNJ-9PJB-DVRQ`
+
+วิธีใส่: กดปุ่มแพ็กเกจที่มุมขวาบนของหน้าต่าง พิมพ์ License แล้วกด **เปิดใช้งาน (Activate)**
+
+💡 ใช้ PuirkleQR ในเชิงพาณิชย์ได้ฟรีเช่นกัน
+
+## ✨ ฟีเจอร์
+
+PuirkleQR Studio สร้าง QR Code และบาร์โค้ดที่ปรับแต่งหน้าตาได้ตามใจ ใช้งานได้แบบออฟไลน์ มีภาษาไทยและอังกฤษ
+มีโหมดมืดและโหมดสว่าง
+
+### 🔗 QR Code 24 ประเภท
+
+- **เว็บและข้อความ:** ลิงก์เว็บไซต์ ข้อความ ลิงก์ดาวน์โหลดแอป (Google Play / App Store) ไฟล์ (PDF รูปภาพ เสียง วิดีโอ)
+- **ข้อมูลติดต่อ:** vCard, MeCard, อีเมล, SMS, โทรออก, โปรไฟล์โซเชียล
+- **แชต:** WhatsApp, LINE, WeChat
+- **ประชุม:** Zoom, Google Meet, นัดหมายในปฏิทิน
+- **สถานที่และเครือข่าย:** ตำแหน่งที่ตั้ง, Wi-Fi
+- **การชำระเงิน:** พร้อมเพย์ (Thai QR), TrueMoney Wallet, PayPal, WeChat Pay, คริปโต
+- **เพลง:** Spotify
+
+### 🎨 การออกแบบ
+
+- **รูปทรงโค้ด:** วงกลมและหัวใจ และตั้งแต่เวอร์ชัน 1.0.7 มีสี่เหลี่ยมมุมมน แปดเหลี่ยม หกเหลี่ยม เพชร ดาว โล่ ดอกไม้
+  ตราสัญลักษณ์ กล่องคำพูด หมุดแผนที่ และเมฆ พร้อมเส้นขอบที่เลือกสีได้
+- **ลวดลายโค้ด 17 แบบ** กรอบตา 9 แบบ และลูกตา 13 แบบ
+- **สี:** สีเดียวหรือไล่สีหลายสี กำหนดสีของตาแยกได้ พื้นหลังโปร่งใสหรือมุมมนได้
+- **โลโก้ตรงกลาง:** ไอคอนในตัว 34 แบบ ตัวอักษรย่อ หรือรูปของคุณเอง
+- **กรอบ 18 แบบ:** ป้าย "Scan me" กล่องคำพูด ตั๋ว โพลารอยด์ โทรศัพท์ Thai QR Payment แสตมป์ หรือใช้รูปของคุณเอง
+- **ข้อความและสติกเกอร์:** วางข้อความและสติกเกอร์เคลื่อนไหวตรงไหนของโค้ดก็ได้
+- **Picture QR:** ใส่รูปถ่ายหรือ GIF เคลื่อนไหวไว้ในโค้ด
+- **สไตล์สำเร็จรูป:** 70 แบบ กดครั้งเดียวใช้ได้เลย (100 แบบตั้งแต่เวอร์ชัน 1.0.7 มีหมวดใหม่ "รูปทรง" และ "ธุรกิจ")
+- **QR เคลื่อนไหว (GIF):** สีรุ้งไหล ไล่สีไหล และสลับสี
+
+### 📊 บาร์โค้ด
+
+Code 128, Code 39, Code 93, EAN-13, EAN-8, UPC-A, UPC-E, ITF, Codabar, PDF417, Data Matrix, Aztec
+
+### ✅ ตรวจการสแกน
+
+โปรแกรมลองอ่านโค้ดทุกครั้งระหว่างที่คุณออกแบบ จึงรู้ได้ก่อนพิมพ์ว่าสแกนได้จริง
+
+### 💾 บันทึก พิมพ์ แชร์
+
+- **บันทึกเป็น** PNG, JPG, BMP, SVG (เวกเตอร์) หรือ GIF เคลื่อนไหว ขนาดสูงสุด 32,768 px สำหรับงานโปสเตอร์
+- **ออกแบบหน้าพิมพ์:** วางหลายโค้ดในหน้าเดียว ทำแผ่นสติกเกอร์ จัดเรียงอัตโนมัติ รองรับ A3 ถึง A6 และอื่น ๆ
+- **My QR:** เก็บโค้ดเป็นกลุ่ม กลับมาแก้ไขทีหลัง และนำสไตล์กลับมาใช้ซ้ำได้
+- **แชร์:** คัดลอก อีเมล LINE, WhatsApp, Telegram, Facebook, X
+- **ส่งไปยังคอมพิวเตอร์เครื่องอื่นของคุณ** ในเครือข่ายเดียวกัน ไม่ต้องใช้อินเทอร์เน็ต
+
+### 💼 เวอร์ชันพกพา (Portable)
+
+เปิดใช้จากโฟลเดอร์ได้เลยโดยไม่ต้องติดตั้ง ข้อมูลของคุณเก็บในไฟล์เดียวที่เข้ารหัสไว้และเปิดได้เฉพาะบนเครื่องของคุณ
+และมีปุ่ม "ย้ายไปเครื่องอื่น" สำหรับตอนเปลี่ยนคอมพิวเตอร์
+
+### 📁 QR ไฟล์
+
+QR Code ที่เปิดไฟล์ PDF รูปภาพ เพลง หรือวิดีโอ ไฟล์จะถูกอัปโหลดไปยังที่เก็บไฟล์ของคุณเอง โดย `PuirkleQR-FileServer.zip`
+ที่อยู่ในแต่ละ Release คือเซิร์ฟเวอร์ไฟล์ขนาดเล็กที่นำไปวางบนเว็บโฮสติ้งของคุณหรือ Cloudflare ได้
+
+## 🐞 เจอบั๊ก?
+
+แจ้งได้ที่นี่: **[Issues](https://github.com/Puirkle/puirkleqr-releases/issues)** (ในโปรแกรมก็มีปุ่ม **แจ้งปัญหา** เช่นกัน)
+
+## ☕ สนับสนุนผลงาน
+
+"เวอร์ชันเสียเงิน" จริง ๆ แล้วเป็นแค่มุกตลก 😂
+
+แต่ถ้าชอบโปรแกรมของเราและอยากสนับสนุน ทำได้ที่นี่:
+
+🇹🇭 **สำหรับคนไทย:** https://ezdn.app/puirkle
+
+☕ **Buy Me a Coffee:** https://buymeacoffee.com/puirkle
+
+## ❤️ ขอบคุณ!
+
+ขอบคุณที่ใช้ PuirkleQR และสนับสนุนผลงานของเรา
+
+การสนับสนุนของคุณช่วยให้เราทำและดูแลซอฟต์แวร์ฟรีต่อไปได้
 
 — Puirkle
