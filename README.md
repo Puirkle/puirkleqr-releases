@@ -19,6 +19,8 @@ Just send me a DM on Discord and I'll provide you with a license for free.
 
 Discord: pthemaid
 
+Licence:PQR-HA2C-QJNJ-9PJB-DVRQ
+
 💡 You are also free to use PuirkleQR for commercial purposes.
 
 ☕ Support My Work
