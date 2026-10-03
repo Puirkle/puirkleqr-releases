@@ -175,7 +175,7 @@ A QR code that opens a PDF, picture, song or video. The file is uploaded to stor
 
 ## 🐞 Found a bug?
 
-If the encounters a bug, try restarting the program.
+If encounters a bug, try rebooting the program.
 
 If the problem persists, try performing a religious ritual and then reactivating the program.
 
