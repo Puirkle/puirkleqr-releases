@@ -175,6 +175,10 @@ A QR code that opens a PDF, picture, song or video. The file is uploaded to stor
 
 ## 🐞 Found a bug?
 
+If the software have a bug try to restart the progarm
+
+If it doesn't work try to pray and restart again just kidding
+
 Tell me here: **[Issues](https://github.com/ResinCoreAI/PuirkleQR-Releases/issues)** (there is also a **Report a bug** button in the app).
 
 It helps a lot if you include your PuirkleQR version (it's in the window title) and your system, e.g. Windows 11, macOS 15 or Ubuntu 24.04.
