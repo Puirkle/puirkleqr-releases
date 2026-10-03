@@ -1,48 +1,112 @@
-# PuirkleQR Releases
+<div align="center">
 
-✨ **Free Software by Puirkle**
+<img src="/icon.png" width="96" alt="PuirkleQR icon">
+
+# PuirkleQR
+
+**Free QR code and barcode studio for Windows, macOS and Linux**
+
+[![Latest version](https://img.shields.io/github/v/release/ResinCoreAI/PuirkleQR-Releases?label=latest&color=7c3aed)](https://github.com/ResinCoreAI/PuirkleQR-Releases/releases/latest)
+![Platforms](https://img.shields.io/badge/platforms-Windows%20%7C%20macOS%20%7C%20Linux-0a7bbb)
+![Price](https://img.shields.io/badge/price-free-2ea44f)
+![Languages](https://img.shields.io/badge/languages-English%20%7C%20Thai-f08c00)
 
 🌐 **English** | [ภาษาไทย](README.th.md)
 
+### [⬇️ Download the latest version](https://github.com/ResinCoreAI/PuirkleQR-Releases/releases/latest)
+
+</div>
+
 Hi! It's me, Puirkle 👋
 
-I'm happy to share PuirkleQR with everyone. The software is completely free to use, including for commercial purposes.
+I'm happy to share **PuirkleQR** with everyone. It makes QR codes and barcodes that look exactly the way you want, and it's completely free to use, **including for commercial purposes**. There are no hidden fees or paid features required.
 
-There are no hidden fees or paid features required.
+This repository is the official home of PuirkleQR downloads, release notes and bug reports.
 
-## 📦 Downloads
+## 📦 Download
 
-You can find the latest PuirkleQR releases and downloads here: **[Releases](https://github.com/Puirkle/puirkleqr-releases/releases/latest)**
+Open **[the latest release](https://github.com/ResinCoreAI/PuirkleQR-Releases/releases/latest)** and pick the file for your computer:
 
-| Your device | File to download |
+| Your computer | File to download |
 |---|---|
-| Windows (install it) | `PuirkleQR-<version>-windows-installer.exe` |
-| Windows (no install, run from a folder or USB stick) | `PuirkleQR-<version>-windows-portable.zip` |
-| Mac with Apple chip (M1, M2, ...) | `PuirkleQR-<version>-macos-apple-silicon-portable.zip` |
-| Mac with Intel chip | `PuirkleQR-<version>-macos-intel-portable.zip` |
-| Linux (Ubuntu, Debian) | `PuirkleQR-<version>-linux-installer.deb` |
-| Linux (other) | `PuirkleQR-<version>-linux-installer.run` or `PuirkleQR-<version>-linux-portable.tar.gz` |
+| 🪟 Windows (install it) | `PuirkleQR-<version>-windows-installer.exe` |
+| 🪟 Windows (no install, run from a folder or USB stick) | `PuirkleQR-<version>-windows-portable.zip` |
+| 🍎 Mac with Apple chip (M1, M2, M3, …) | `PuirkleQR-<version>-macos-apple-silicon-portable.zip` |
+| 🍎 Mac with Intel chip | `PuirkleQR-<version>-macos-intel-portable.zip` |
+| 🐧 Linux (Ubuntu, Debian and similar) | `PuirkleQR-<version>-linux-installer.deb` |
+| 🐧 Linux (other distributions) | `PuirkleQR-<version>-linux-installer.run` or `PuirkleQR-<version>-linux-portable.tar.gz` |
 
-The app updates itself: when a new version is out it asks "Update now?" the next time you open it.
+`PuirkleQR-FileServer.zip` is not the app. It's the optional server for [File QR](#-file-qr).
 
-## 🔑 License
+> [!TIP]
+> Not sure which Mac you have? Open the Apple menu → **About This Mac**. **Chip: Apple M…** means an Apple chip; **Processor: … Intel …** means an Intel chip.
 
-If PuirkleQR asks you for a license, don't worry!
+**You only need to download once.** PuirkleQR updates itself: when a new version is out, it asks **"Update now?"** the next time you open it. If the app ever acts up, **Studio menu → Reinstall this version…** installs it again over your copy, and your codes and settings stay.
 
-Just send me a DM on Discord and I'll provide you with a license for free.
+## 🛠️ Install
 
-Discord: **pthemaid**
+<details>
+<summary><b>🪟 Windows</b></summary>
+<br>
 
-License: `PQR-HA2C-QJNJ-9PJB-DVRQ`
+- **Installer:** run `PuirkleQR-<version>-windows-installer.exe` and follow the steps.
+- **Portable:** unzip `PuirkleQR-<version>-windows-portable.zip` into any folder (or a USB stick) and start PuirkleQR from that folder.
+- If a blue **"Windows protected your PC"** window appears, click the **More info** link, then the **Run anyway** button.
 
-How to enter it: click the plan button at the top right of the window, type the license, press **Activate**.
+</details>
+
+<details>
+<summary><b>🍎 macOS</b></summary>
+<br>
+
+1. Unzip the file for your Mac (Apple chip or Intel).
+2. Open PuirkleQR.
+3. If macOS says the app can't be opened or verified, go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway**.
+
+</details>
+
+<details>
+<summary><b>🐧 Linux</b></summary>
+<br>
+
+Replace `<version>` with the version number in the file you downloaded.
+
+**Ubuntu, Debian and similar (.deb)**
+
+```bash
+sudo apt install ./PuirkleQR-<version>-linux-installer.deb
+```
+
+**Other distributions (.run)**
+
+```bash
+chmod +x PuirkleQR-<version>-linux-installer.run
+./PuirkleQR-<version>-linux-installer.run
+```
+
+**Portable (.tar.gz):** no install, unpack it and start PuirkleQR from the new folder.
+
+```bash
+tar -xzf PuirkleQR-<version>-linux-portable.tar.gz
+```
+
+</details>
+
+## 🔑 Free license
+
+If PuirkleQR asks you for a license, don't worry, to website: https://qr.puirkle.net/get-license
+
+**How to enter it:** click the plan button at the top right of the window, type the license, then press **Activate**.
+
+You can also send me a DM on Discord and I'll give you a license for free: **pthemaid**
+
+Without a license, PuirkleQR runs on the Free plan: codes get a watermark and some tools, such as the Card Maker, stay locked.
 
 💡 You are also free to use PuirkleQR for commercial purposes.
 
 ## ✨ Features
 
-PuirkleQR Studio makes QR codes and barcodes that look the way you want. It works offline, in Thai and English,
-with dark and light mode.
+PuirkleQR Studio makes QR codes and barcodes that look the way you want. It works offline, in Thai and English, with dark and light mode.
 
 ### 🔗 24 kinds of QR code
 
@@ -56,20 +120,38 @@ with dark and light mode.
 
 ### 🎨 Design
 
-- **Code shapes:** circle and heart, and from 1.0.7 also rounded square, octagon, hexagon, diamond, star, shield,
-  flower, badge, speech bubble, map pin and cloud, with an optional border line in any colour
+- **Code shapes:** circle, heart, rounded square, octagon, hexagon, diamond, star, shield, flower, badge, speech bubble, map pin and cloud, with a border in any colour or none
 - **17 body patterns**, 9 eye frames and 13 eye balls
 - **Colours:** solid or multi-colour gradient, own colours for the eyes, transparent or rounded background
 - **Logo in the middle:** 34 built-in icons, your initials, or your own picture
 - **18 frames:** "Scan me" labels, speech bubble, ticket, Polaroid, phone, Thai QR Payment, stamp, or your own picture
 - **Texts and stickers:** add texts and animated stickers anywhere on the code
 - **Picture QR:** your photo or animated GIF inside the code
-- **Ready-made styles:** 70 one-click presets (100 from 1.0.7, with new "Shaped" and "Business" groups)
+- **100 ready-made styles:** one click, including the "Shaped" and "Business" groups
 - **Animated GIF codes:** rainbow flow, gradient flow, colour cycle
 
 ### 📊 Barcodes
 
 Code 128, Code 39, Code 93, EAN-13, EAN-8, UPC-A, UPC-E, ITF, Codabar, PDF417, Data Matrix, Aztec
+
+### 📚 Many codes at once
+
+- **Multi QR:** QR Code tab → Content → **Multi QR…**. One row of text = one QR code, all with the same style, logo and frame, saved as separate files in the folder you choose
+- **Multi barcode:** Barcode tab → **Multi barcode…**
+- Type the rows or import a `.txt` / `.csv` file. Files are named from the row text or numbered (`qr-001`, `qr-002`, …), and existing files are never overwritten
+
+### 🪪 Card Maker
+
+Design ID cards, staff and student cards, event badges, member cards, business cards and name tags, then make one card for every person on a list (type it, paste from Excel or import CSV).
+
+- Each box is **Fixed** or **Each person**: names, photos, QR codes and barcodes per person
+- More than 20 templates, a custom size, or start from your own card picture
+- Canva-like editing: drag, resize, rotate, align, layers, type on the card, Ctrl+Z / Ctrl+C / Ctrl+V, zoom and Focus mode
+- Colours by level or position (e.g. Level A red, Level B blue), different texts, show / hide boxes, and recolouring of an imported card picture
+- Auto running numbers with your own prefix, year, date or character set, with ready-made presets
+- Projects are saved in the app automatically and can be exported as `.pqrcard` files. Save every card as PNG / JPG / SVG, or print at real size with cut guides
+
+*The Card Maker needs a license (Individual plan or above). It's free, see [🔑 Free license](#-free-license).*
 
 ### ✅ Scan check
 
@@ -85,150 +167,46 @@ Every code is test-read while you design it, so you know it scans before you pri
 
 ### 💼 Portable version
 
-Runs from a folder with no installation. Your data stays in one encrypted file that only opens on your PC, and
-there is a "Move to another PC" button for when you change computers.
+Runs from a folder with no installation. Your data stays in one encrypted file that only opens on your PC, and there is a **Move to another PC** button for when you change computers.
 
 ### 📁 File QR
 
-A QR code that opens a PDF, picture, song or video. The file is uploaded to storage you own: `PuirkleQR-FileServer.zip`
-in each release is a small file server you can put on your own web hosting or Cloudflare.
+A QR code that opens a PDF, picture, song or video. The file is uploaded to storage you own: your own file server or S3-compatible storage. `PuirkleQR-FileServer.zip` in every release is a small file server for File QR that runs on PHP web hosting or as a Cloudflare Worker.
 
 ## 🐞 Found a bug?
 
-Tell me here: **[Issues](https://github.com/Puirkle/puirkleqr-releases/issues)** (there is also a **Report a bug** button in the app).
+Tell me here: **[Issues](https://github.com/ResinCoreAI/PuirkleQR-Releases/issues)** (there is also a **Report a bug** button in the app).
 
-## ☕ Support My Work
+It helps a lot if you include your PuirkleQR version (it's in the window title) and your system, e.g. Windows 11, macOS 15 or Ubuntu 24.04.
+
+## ☕ Support our work
 
 The "paid version" is basically a joke 😂
 
-However, if you enjoy my software and would like to support me, you can do so here:
+However, if you enjoy my software and would like to support Puirkle, you can do so here:
 
-🇹🇭 **Thai Support** (Thai only): https://ezdn.app/puirkle
+- 🇹🇭 **Thai support** (Thai only): https://ezdn.app/puirkle
+- ☕ **Buy Me a Coffee:** https://buymeacoffee.com/puirkle
 
-☕ **Buy Me a Coffee:** https://buymeacoffee.com/puirkle
+Support ResinCore:
 
-## ❤️ Thank You!
+- ☕ **Buy Me a Coffee:** https://buymeacoffee.com/resincore
 
-Thanks for using PuirkleQR and supporting my work!
+## ❤️ Thank you!
 
-Your support helps me continue making and maintaining free software.
-
-— Puirkle
-
-
-# PuirkleQR Releases
-
-✨ **ซอฟต์แวร์ฟรีโดย Puirkle**
-
-🌐 [English](README.md) | **ภาษาไทย**
-
-สวัสดี! เราเอง Puirkle 👋
-
-ดีใจที่ได้แบ่งปัน PuirkleQR ให้ทุกคนใช้ โปรแกรมนี้ใช้ได้ฟรีทั้งหมด รวมถึงใช้ในเชิงพาณิชย์ด้วย
-
-ไม่มีค่าใช้จ่ายแอบแฝง และไม่ต้องจ่ายเงินเพื่อใช้ฟีเจอร์ใด ๆ
-
-## 📦 ดาวน์โหลด
-
-ดาวน์โหลด PuirkleQR เวอร์ชันล่าสุดได้ที่นี่: **[Releases](https://github.com/Puirkle/puirkleqr-releases/releases/latest)**
-
-| เครื่องของคุณ | ไฟล์ที่ต้องดาวน์โหลด |
-|---|---|
-| Windows (ติดตั้งลงเครื่อง) | `PuirkleQR-<เวอร์ชัน>-windows-installer.exe` |
-| Windows (ไม่ต้องติดตั้ง เปิดจากโฟลเดอร์หรือแฟลชไดรฟ์) | `PuirkleQR-<เวอร์ชัน>-windows-portable.zip` |
-| Mac ชิป Apple (M1, M2, ...) | `PuirkleQR-<เวอร์ชัน>-macos-apple-silicon-portable.zip` |
-| Mac ชิป Intel | `PuirkleQR-<เวอร์ชัน>-macos-intel-portable.zip` |
-| Linux (Ubuntu, Debian) | `PuirkleQR-<เวอร์ชัน>-linux-installer.deb` |
-| Linux (อื่น ๆ) | `PuirkleQR-<เวอร์ชัน>-linux-installer.run` หรือ `PuirkleQR-<เวอร์ชัน>-linux-portable.tar.gz` |
-
-โปรแกรมอัปเดตตัวเองได้ เมื่อมีเวอร์ชันใหม่ ตอนเปิดโปรแกรมครั้งถัดไปจะถามว่า "อัปเดตเลยไหม?"
-
-## 🔑 License
-
-ถ้า PuirkleQR ถามหา License ไม่ต้องกังวล!
-
-ทัก DM มาหาเราทาง Discord ได้เลย เราจะให้ License ฟรี
-
-Discord: **pthemaid**
-
-License: `PQR-HA2C-QJNJ-9PJB-DVRQ`
-
-วิธีใส่: กดปุ่มแพ็กเกจที่มุมขวาบนของหน้าต่าง พิมพ์ License แล้วกด **เปิดใช้งาน (Activate)**
-
-💡 ใช้ PuirkleQR ในเชิงพาณิชย์ได้ฟรีเช่นกัน
-
-## ✨ ฟีเจอร์
-
-PuirkleQR Studio สร้าง QR Code และบาร์โค้ดที่ปรับแต่งหน้าตาได้ตามใจ ใช้งานได้แบบออฟไลน์ มีภาษาไทยและอังกฤษ
-มีโหมดมืดและโหมดสว่าง
-
-### 🔗 QR Code 24 ประเภท
-
-- **เว็บและข้อความ:** ลิงก์เว็บไซต์ ข้อความ ลิงก์ดาวน์โหลดแอป (Google Play / App Store) ไฟล์ (PDF รูปภาพ เสียง วิดีโอ)
-- **ข้อมูลติดต่อ:** vCard, MeCard, อีเมล, SMS, โทรออก, โปรไฟล์โซเชียล
-- **แชต:** WhatsApp, LINE, WeChat
-- **ประชุม:** Zoom, Google Meet, นัดหมายในปฏิทิน
-- **สถานที่และเครือข่าย:** ตำแหน่งที่ตั้ง, Wi-Fi
-- **การชำระเงิน:** พร้อมเพย์ (Thai QR), TrueMoney Wallet, PayPal, WeChat Pay, คริปโต
-- **เพลง:** Spotify
-
-### 🎨 การออกแบบ
-
-- **รูปทรงโค้ด:** วงกลมและหัวใจ และตั้งแต่เวอร์ชัน 1.0.7 มีสี่เหลี่ยมมุมมน แปดเหลี่ยม หกเหลี่ยม เพชร ดาว โล่ ดอกไม้
-  ตราสัญลักษณ์ กล่องคำพูด หมุดแผนที่ และเมฆ พร้อมเส้นขอบที่เลือกสีได้
-- **ลวดลายโค้ด 17 แบบ** กรอบตา 9 แบบ และลูกตา 13 แบบ
-- **สี:** สีเดียวหรือไล่สีหลายสี กำหนดสีของตาแยกได้ พื้นหลังโปร่งใสหรือมุมมนได้
-- **โลโก้ตรงกลาง:** ไอคอนในตัว 34 แบบ ตัวอักษรย่อ หรือรูปของคุณเอง
-- **กรอบ 18 แบบ:** ป้าย "Scan me" กล่องคำพูด ตั๋ว โพลารอยด์ โทรศัพท์ Thai QR Payment แสตมป์ หรือใช้รูปของคุณเอง
-- **ข้อความและสติกเกอร์:** วางข้อความและสติกเกอร์เคลื่อนไหวตรงไหนของโค้ดก็ได้
-- **Picture QR:** ใส่รูปถ่ายหรือ GIF เคลื่อนไหวไว้ในโค้ด
-- **สไตล์สำเร็จรูป:** 70 แบบ กดครั้งเดียวใช้ได้เลย (100 แบบตั้งแต่เวอร์ชัน 1.0.7 มีหมวดใหม่ "รูปทรง" และ "ธุรกิจ")
-- **QR เคลื่อนไหว (GIF):** สีรุ้งไหล ไล่สีไหล และสลับสี
-
-### 📊 บาร์โค้ด
-
-Code 128, Code 39, Code 93, EAN-13, EAN-8, UPC-A, UPC-E, ITF, Codabar, PDF417, Data Matrix, Aztec
-
-### ✅ ตรวจการสแกน
-
-โปรแกรมลองอ่านโค้ดทุกครั้งระหว่างที่คุณออกแบบ จึงรู้ได้ก่อนพิมพ์ว่าสแกนได้จริง
-
-### 💾 บันทึก พิมพ์ แชร์
-
-- **บันทึกเป็น** PNG, JPG, BMP, SVG (เวกเตอร์) หรือ GIF เคลื่อนไหว ขนาดสูงสุด 32,768 px สำหรับงานโปสเตอร์
-- **ออกแบบหน้าพิมพ์:** วางหลายโค้ดในหน้าเดียว ทำแผ่นสติกเกอร์ จัดเรียงอัตโนมัติ รองรับ A3 ถึง A6 และอื่น ๆ
-- **My QR:** เก็บโค้ดเป็นกลุ่ม กลับมาแก้ไขทีหลัง และนำสไตล์กลับมาใช้ซ้ำได้
-- **แชร์:** คัดลอก อีเมล LINE, WhatsApp, Telegram, Facebook, X
-- **ส่งไปยังคอมพิวเตอร์เครื่องอื่นของคุณ** ในเครือข่ายเดียวกัน ไม่ต้องใช้อินเทอร์เน็ต
-
-### 💼 เวอร์ชันพกพา (Portable)
-
-เปิดใช้จากโฟลเดอร์ได้เลยโดยไม่ต้องติดตั้ง ข้อมูลของคุณเก็บในไฟล์เดียวที่เข้ารหัสไว้และเปิดได้เฉพาะบนเครื่องของคุณ
-และมีปุ่ม "ย้ายไปเครื่องอื่น" สำหรับตอนเปลี่ยนคอมพิวเตอร์
-
-### 📁 QR ไฟล์
-
-QR Code ที่เปิดไฟล์ PDF รูปภาพ เพลง หรือวิดีโอ ไฟล์จะถูกอัปโหลดไปยังที่เก็บไฟล์ของคุณเอง โดย `PuirkleQR-FileServer.zip`
-ที่อยู่ในแต่ละ Release คือเซิร์ฟเวอร์ไฟล์ขนาดเล็กที่นำไปวางบนเว็บโฮสติ้งของคุณหรือ Cloudflare ได้
-
-## 🐞 เจอบั๊ก?
-
-แจ้งได้ที่นี่: **[Issues](https://github.com/Puirkle/puirkleqr-releases/issues)** (ในโปรแกรมก็มีปุ่ม **แจ้งปัญหา** เช่นกัน)
-
-## ☕ สนับสนุนผลงาน
-
-"เวอร์ชันเสียเงิน" จริง ๆ แล้วเป็นแค่มุกตลก 😂
-
-แต่ถ้าชอบโปรแกรมของเราและอยากสนับสนุน ทำได้ที่นี่:
-
-🇹🇭 **สำหรับคนไทย:** https://ezdn.app/puirkle
-
-☕ **Buy Me a Coffee:** https://buymeacoffee.com/puirkle
-
-## ❤️ ขอบคุณ!
-
-ขอบคุณที่ใช้ PuirkleQR และสนับสนุนผลงานของเรา
-
-การสนับสนุนของคุณช่วยให้เราทำและดูแลซอฟต์แวร์ฟรีต่อไปได้
+Thanks for using PuirkleQR and supporting my work! Your support helps me continue making and maintaining free software.
 
 — Puirkle
+
+## 📜 License
+
+Copyright (c) 2026 ResinCore. All rights reserved. 
+Created by Puirkle
+
+You may install and use PuirkleQR Studio on your computers to create, save, print and share QR codes and barcodes, including for commercial purposes. The QR codes and barcodes you create belong to you. 
+PuirkleQR Studio is provided "as is", without warranty of any kind, express or implied. In no event shall the authors be liable for any claim, damages or other liability arising from the use of the software. 
+Your saved codes are stored in %APPDATA%\PuirkleQR and are not removed when the program is uninstalled.
+
+Third-party components 
+- ZXing ("Zebra Crossing") - Apache License 2.0   https://github.com/zxing/zxing 
+- FlatLaf - Apache License 2.0   https://github.com/JFormDesigner/FlatLaf 
