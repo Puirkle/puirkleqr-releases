@@ -177,9 +177,9 @@ A QR code that opens a PDF, picture, song or video. The file is uploaded to stor
 
 If the software have a bug try to restart the progarm
 
-If it doesn't work try to pray and restart again
+If the problem persists, try performing a religious ritual and then reactivating the program.
 
-If doesn't work yet
+If that still doesn’t work, contact your nearby chaplain—or let us know here.
 
 Contract US: **[Issues](https://github.com/ResinCoreAI/PuirkleQR-Releases/issues)** (there is also a **Report a bug** button in the app).
 
